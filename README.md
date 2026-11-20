@@ -18,6 +18,7 @@ Este mini proyecto desarrolla dos programas independientes en lenguaje ensamblad
 **Escenario 2 — Control de distribución de paquetes:** Una empresa de logística parte de registros de 45 y 60 paquetes. El programa calcula acumulados y diferencias, reutiliza registros y verifica el resultado de una operación final. Si la suma de control es distinta de cero, almacena **505** en `estado`; en caso contrario, almacena **0**. Con los datos iniciales documentados, la suma de control es **180** y se almacena **505**.
 
 **Uso:** Abrir [Mipsy Web](https://cgi.cse.unsw.edu.au/~cs1521/mipsy/), cargar o pegar el código MIPS de uno de los escenarios y ejecutarlo. Revisar los registros y la memoria para comprobar las operaciones y el valor final de `estado`. Cada programa se ejecuta por separado.
+En la segunda parte del proyecto se analizan las instrucciones MIPS de formatos R, I y J utilizadas en ambos escenarios, identificando sus campos, registros, operaciones y efectos sobre el procesador. También se documenta el funcionamiento de los componentes principales del datapath, incluyendo el PC, las memorias, el banco de registros, la ALU, los multiplexores y la unidad de control.
 
 ---
 
